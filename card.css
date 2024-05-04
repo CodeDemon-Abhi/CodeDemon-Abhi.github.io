@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 30%, 89%);
+}
+.main-1{
+    height: 565px;
+    width: 350px;
+    background-color:white;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+    justify-content: center;
+align-items:center;
+border-radius: 20px;
+padding:17px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 19px;
+}
+.text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-left: 10px;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size:25px ;
+  font-style: normal;
+  color: rgb(40, 40, 45);
+ line-height: 33px;
+  text-align: center;
+}
+ p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 22px;
+    color: gray;
+    text-align:center;
+ } 
+
+/* align content property only works when flex wrap property is applied .This property allows us to align everything on The Cross Axis. */
